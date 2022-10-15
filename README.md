@@ -29,8 +29,8 @@ How to use this repository
 | ----- | ----- | ------------------------------------------------------- | ----------- |
 | 1     | HTML  | [HTML RESUME](./2-HTML/201-HTML-RESUME) HTML-201-01              |             |
 | 2     | HTML  | [HTML FORM](./2-HTML/202-HTML-FORM/)  HTML-202-01                 |             |
-| 3     | HTML  | [HTML PHOTO CAT APP](./2-HTML/203-HTML-Photo-Cat-App/) HTML-203-01  |             |
-| 4     | HTML  | [HTML TRIBUTE PAGE](./2-HTML/204-HTML-TRIBUTE-PAGE/) HTML-204-01   |             |
+| 3     | HTML  | [HTML PHOTO CAT APP](./2-HTML/203-HTML-Photo-Cat-App/) HTML-203-01  | https://onkarkotmire.github.io/CatPhotoApp/        |
+| 4     | HTML  | [HTML TRIBUTE PAGE](./2-HTML/204-HTML-TRIBUTE-PAGE/) HTML-204-01   |  https://onkarkotmire.github.io/TributePage/          |
 
 # CSS
 
