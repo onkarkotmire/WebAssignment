@@ -14,7 +14,7 @@ How to use this repository
 | S No. | Topic | Assignment                                                | Hosted Link |
 | ----- | ----- | --------------------------------------------------------- | ----------- |
 | 1     | GIT   | [COMMAND LINE](./0-Git/GIT-001-COMMANDLINE/ )            | NA          |
-| 2     | GIT   | [GIT-002-01](./0-Git/GIT-002-GIT-PRACTICE/)              |             |
+| 2     | GIT   | [GIT-002-01](./0-Git/GIT-002-GIT-PRACTICE/)              |  https://onkarkotmire.github.io/WebAssignment/0-Git/GIT-002-GIT-PRACTICE/GIT-002-01/second.txt           |
 | 2     | GIT   | [GIT-002-02](./0-Git/GIT-002-GIT-PRACTICE/)              |             |
 
 # JS Basics
