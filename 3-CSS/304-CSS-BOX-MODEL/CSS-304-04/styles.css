@@ -1,0 +1,49 @@
+/* start your css here */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 70vw;
+    height: 15vh;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.child1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.child2{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    gap: 20px;
+}
+#dpimg{
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid white;
+}
+#graytext{
+    color: gray;
+}
