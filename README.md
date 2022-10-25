@@ -41,7 +41,7 @@ How to use this repository
 | 3     | CSS   | [CSS COLOR MAKER](./3-CSS/303-CSS-COLOR-MARKER/)     [CSS-303-01]            |  https://onkarkotmire.github.io/WebAssignment/3-CSS/303-CSS-COLOR-MARKER/CSS-303-01/         |
 | 4     | CSS   | [CSS-BOX-MODEL](./3-CSS/304-CSS-BOX-MODEL/)     [CSS-304-01]                 | https://onkarkotmire.github.io/WebAssignment/3-CSS/304-CSS-BOX-MODEL/CSS-304-01/index.html            |
 | 4     | CSS   | [CSS-BOX-MODEL](./3-CSS/304-CSS-BOX-MODEL/)     [CSS-304-02]                 | https://onkarkotmire.github.io/WebAssignment/3-CSS/304-CSS-BOX-MODEL/CSS-304-02/index.html            |
-| 4     | CSS   | [CSS-BOX-MODEL](./3-CSS/304-CSS-BOX-MODEL/)     [CSS-304-03]                 |             |
+| 4     | CSS   | [CSS-BOX-MODEL](./3-CSS/304-CSS-BOX-MODEL/)     [CSS-304-03]                 | https://onkarkotmire.github.io/WebAssignment/3-CSS/304-CSS-BOX-MODEL/CSS-304-03/index.html       |
 | 4     | CSS   | [CSS-BOX-MODEL](./3-CSS/304-CSS-BOX-MODEL/)     [CSS-304-04]                 |             |
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-01]                      |             |
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-02]                      |             |
