@@ -46,7 +46,7 @@ How to use this repository
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-01]                      | https://onkarkotmire.github.io/WebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-01/index.html            |
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-02]                      | https://onkarkotmire.github.io/WebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-02/index.html            |
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-03]                      | https://onkarkotmire.github.io/WebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-03/index.html            |
-| 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-04]                      |             |
+| 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-04]                      | https://onkarkotmire.github.io/WebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-04/index.html            |
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-05]                      |             |
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-06]                      |             |
 | 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/)          [CSS-306-01]                      |             |
