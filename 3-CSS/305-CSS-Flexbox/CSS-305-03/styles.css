@@ -1,0 +1,131 @@
+/* start your styling here  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&family=Oswald&display=swap'); */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    height: 95vh;
+    width: 95vw;
+    margin-top: 10px;
+    background-color: rgb(242,242,242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 100%;
+    width: 33.33333333%;
+}
+.parent-container{
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+}
+#container-1{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgb(227,136,38);
+}
+#container-2{
+    background-color: rgb(0,105,112);
+}
+#container-3{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(0,66,65);
+}
+.childof1{
+    height: 25%;
+    width: 100%;
+    border: 2px solid rgb(227,136,38);
+    border-radius: 25px;
+}
+.car-round{
+    display: flex;
+    font-size: 35px;
+    color: rgb(255,212,115);
+    height: 50px;
+    width: 100px;
+    margin: 40px;
+    position: relative;
+}
+.round{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(182,109,30);
+}
+.car{
+margin-left: 20px;
+position: absolute; 
+}
+#round2{
+    background-color: rgb(0,84,90);
+}
+#round3{
+background-color: rgb(0,53,52);
+}
+#car-round2{
+    color: rgb(38,181,192);
+}
+#car-round3{
+    color: rgb(25,184,157);
+}
+h1{
+    font-size: 40px;
+    margin: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.childof2{
+    height: 25%;
+    width: 100%;
+    border: 2px solid rgb(0,105,112);
+    border-radius: 25px;
+}
+.childof3{
+    height: 25%;
+    width: 100%;
+    border: 2px solid rgb(0,66,65);
+    border-radius: 25px;
+}
+.para{
+    color: white;
+    font-size: 20px;
+    margin: 25px 40px;
+}
+.learnmore{
+    height: 60px;
+    width: 40%;
+    margin: 40px;
+}
+.button{
+    height: 50px;
+    width: 90%;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(227,136,38);
+    background-color: white;
+}
+#button3{
+color: rgb(0,66,65);
+}
+#button2{
+color: rgb(0,105,112);
+}
