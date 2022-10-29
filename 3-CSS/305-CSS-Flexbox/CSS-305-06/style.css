@@ -1,1 +1,188 @@
 /* start your styling here  */
+*{
+    box-sizing: border-box;
+    margin: 0px ;
+    padding: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    width: 90vw;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    gap: 30%;
+    justify-content: space-between;
+}
+.linkedin{
+    width: 15%;
+    height: 100%;
+    color: rgb(10,102,194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.icons{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.outside{
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+#in{
+    background-color: rgb(10,102,194);
+    color: white ;
+    height: 35%;
+    display: flex;
+    align-items: center;  
+}
+.discover{
+    width: 25%;
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(102,102,102);
+}
+.signin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+.sign{
+    border: 1px solid rgb(10,102,194);
+    height: 50%;
+    width: 45%;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(10,102,194);
+
+}
+.join{
+    height: 30%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(90, 88, 88);
+    border-left: 1px solid rgb(102,102,102);    
+}
+
+.body-content{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-1{
+    width: 50%;
+    height: 100%;
+}
+.container-2{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image{
+    width: 100%;
+    height: 80%;
+}
+.text{
+    width: 100%;
+    height: 30%;
+    /* border: red solid 2px; */
+    font-size: 56px;
+    color: rgb(187, 125, 108);
+}
+.emaill{
+    width: 100%;
+    height: 26%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.policy{
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid violet; */
+    font-size: 15px;
+    color: rgb(102,102,102);
+}
+.agree{
+    width: 70%;
+    height: 10%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgb(41,119,201);
+    color: white;
+}
+.or{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.email{
+    width: 70%;
+    height: 40%;
+    border: 1px solid black;
+}
+#emailinput{
+width: 100%;
+height: 100%;
+border: none;
+font-size: 18px;
+padding: 10px;
+}
+.password{
+    width: 70%;
+    height: 40%;
+    border: 1px solid black;
+}
+#passwordinput{
+width: 100%;
+height: 100%;
+border: none;
+font-size: 18px;
+padding: 10px;
+}
+.or1{
+    width: 70%;
+    height: 80%;
+    color: rgb(102,102,102);
+}
+#fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
