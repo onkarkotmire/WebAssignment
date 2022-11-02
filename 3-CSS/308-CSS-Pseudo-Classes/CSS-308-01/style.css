@@ -1,1 +1,68 @@
 /* start your styling here  */
+*{
+    box-sizing: border-box;
+    margin: 0px ;
+    padding: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    height: 20vh;
+    width: 70vw;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.box{
+    height: 70%;
+    width: 18%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#success{
+    color: green;
+    border: 2px solid green;
+}
+#success:hover{
+    color: white;
+    background-color: green;
+}
+#info{
+    color: blue;
+    border: 2px solid blue;
+}
+#info:hover{
+    color: white;
+    background-color: blue;
+}
+#warning{
+    color: orange;
+    border: 2px solid orange;
+}
+#warning:hover{
+    color: white;
+    background-color: orange;
+}
+#danger{
+    color: red;
+    border: 2px solid red;
+}
+#danger:hover{
+    color: white;
+    background-color: red;
+}
+#default{
+    color: black;
+    border: 2px solid gray;
+}
+#default:hover{
+    color: black;
+    background-color: gray;
+}
