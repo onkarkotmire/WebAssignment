@@ -50,7 +50,7 @@ How to use this repository
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-05]                      | https://onkarkotmire.github.io/WebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-05/index.html             |
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-06]                      | https://onkarkotmire.github.io/WebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-06/index.html             |
 | 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/)          [CSS-306-01]                      | https://onkarkotmire.github.io/WebAssignment/3-CSS/306-CSS-Grid/CSS-306-01/index.html            |
-| 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/)          [CSS-306-02]                      |             |
+| 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/)          [CSS-306-02]                      | https://onkarkotmire.github.io/WebAssignment/3-CSS/306-CSS-Grid/CSS-306-02/index.html            |
 | 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/)          [CSS-306-03]                      | https://onkarkotmire.github.io/WebAssignment/3-CSS/306-CSS-Grid/CSS-306-03/index.html            |
 | 7     | CSS   | [CSS-SELECTORS](./3-CSS/307-Advance-CSS-Selectors/)    [CSS-307-01]          |  https://onkarkotmire.github.io/WebAssignment/3-CSS/307-Advance-CSS-Selectors/CSS-307-01/index.html           |
 | 8     | CSS   | [CSS-PSEUDO-CLASSES](./3-CSS/308-CSS-Pseudo-Classes/)  [CSS-308-01]          |             |
