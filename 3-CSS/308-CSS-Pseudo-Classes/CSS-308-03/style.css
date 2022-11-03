@@ -1,1 +1,279 @@
 /* start your styling here  */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(251,229,151);
+}
+.body1{
+    margin-top: 10vh;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+.body2{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(69,69,69);
+}
+.body3{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(23,62,67);
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbox{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shop{
+    width: 13%;
+}
+.navtext{
+    width: 20%;
+    height: 75%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: rgb(76,75,72);
+}
+.navtext:hover {
+    color: rgb(63,176,172);
+    border-top: 3px solid rgb(63,176,172);
+}
+  .dropdown {
+    position: relative;
+    height: 75%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .about {
+    color: rgb(76,75,72);
+    font-size: 18px;
+    border: none;
+    display: flex;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    right: 0%;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+  }
+  .dropdown-content a:hover {
+    color: rgb(119, 116, 116);
+    }
+  .dropdown:hover {
+    color: rgb(63,176,172);
+    border-top: 3px solid rgb(63,176,172); 
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    }
+  .dropdown .about:hover{
+    color: rgb(63,176,172);
+  }
+  
+  .leftsection{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .rightsection{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+.Lsec{
+    height: 100%;
+    width: 90%;
+    color: rgb(69, 69, 69);
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.Rsec{
+    width: 55%;
+    height: 60%;
+}
+#image{
+    width: 100%;
+    height: 70%;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+.iconbox{
+    width: 30%;
+    height: 80px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconbox:hover{
+    color: rgb(41,119,201);
+}
+.view-box{
+    width: 35%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1{
+    width: 50%;
+    height: 70%;
+    color:  black;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 16.1px;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+}
+.btn2{
+    width: 40%;
+    height: 70%;
+    color:  black;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 16.1px;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+}
+.btn1:hover{
+    color: rgba(0, 0, 0, 0.506) ;
+}
+.btn2:hover{
+    color: rgba(0, 0, 0, 0.506) ;
+}
+.address{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.add1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.messagelogo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    right:0;
+    bottom: 0;
+    height: 30%;
+    z-index: 1;
+}
+.smallicon{
+    width: 100%;
+    height: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lanename{
+    width: 100%;
+    height: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.phonenumber{
+    width: 100%;
+    height: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.messanger{
+    width: 40%;
+    height: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgb(10,124,255);
+    color: white;
+    border-radius: 50%;
+    margin-top: 70%;
+    
+}
+#nikhilname{
+    font-family: "Roboto Slab", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39.2px;
+    color: rgb(0, 0, 0);
+}
