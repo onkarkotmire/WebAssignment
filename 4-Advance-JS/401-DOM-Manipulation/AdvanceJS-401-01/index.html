@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1-Onclick Button</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            border: 2px solid black;
+            width: 50vw;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 10%;
+        }
+        .input{
+            width: 70%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ptag{
+            width: 70%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+            font-weight: 600;
+            color: black;
+        }
+        #input-tag{
+            width: 70%;
+            height: 40%;
+            font-size: 20px;
+        }
+        .wrote{
+            width: 70%;
+            height: 60%;
+            font-size: 25px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="input">
+        <input type="text" id="input-tag" placeholder="Type Your Text Here">
+    </div>
+    <div class="ptag">
+    <p class="wrote"></p>
+    </div>
+    </div>
+    <script>
+       var userinput=document.getElementsByTagName('input')[0];
+       var texttag = document.getElementsByClassName("wrote")[0];
+       userinput.addEventListener("keyup", myfun);
+       function myfun(){
+        texttag.innerText = userinput.value;
+       }
+
+    </script>
+</body>
 </html>
