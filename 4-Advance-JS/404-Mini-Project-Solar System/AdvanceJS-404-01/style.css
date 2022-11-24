@@ -59,6 +59,7 @@ body{
     padding: 3px;
     font-size: 17px;
     border-radius: 7px;
+    outline: none;
 }
 .cal-btn{
    width: 18%;
