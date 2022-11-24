@@ -51,6 +51,7 @@ body{
     font-size: 17px;
     padding: 3px;
     border-radius: 7px;
+    outline: none;
 }
 #planet{
     width: 30%;
