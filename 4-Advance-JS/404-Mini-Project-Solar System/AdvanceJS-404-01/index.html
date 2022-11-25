@@ -82,45 +82,24 @@ document.getElementsByClassName("emptydiv")[0].style.display="none";
 document.getElementsByClassName("outputblockwithoutput")[0].style.display="flex";
 }
 
-if(GrahName === "Earth"){
-    document.getElementsByClassName("planet-img")[0].src="./earth.png";
-    document.getElementById("ans-tag").innerText= (Mass*9.8).toFixed(2) + " N";  
-}else if(GrahName === "Jupiter"){
-    document.getElementsByClassName("planet-img")[0].src="./jupiter.png";
-    document.getElementById("ans-tag").innerText= (Mass*25.96).toFixed(2) + " N";  
+const Acce_value = {
+    'Earth' : 9.8,
+    'Jupiter': 25.96,
+    'Mars': 3.77,
+    'Mercury': 3.59,
+    'Moon': 1.62,
+    'Neptune': 14.07,
+    'Pluto': 0.42,
+    'Saturn': 11.08,
+    'Uranus': 10.67,
+    'Venus': 8.87
 }
-else if(GrahName === "Mars"){
-    document.getElementsByClassName("planet-img")[0].src="./mars.png";
-    document.getElementById("ans-tag").innerText= (Mass*3.77).toFixed(2) + " N";  
-}
-else if(GrahName === "Mercury"){
-    document.getElementsByClassName("planet-img")[0].src="./mercury.png";
-    document.getElementById("ans-tag").innerText= (Mass*3.59).toFixed(2) + " N";  
-}
-else if(GrahName === "Moon"){
-    document.getElementsByClassName("planet-img")[0].src="./moon.png";
-    document.getElementById("ans-tag").innerText= (Mass*1.62).toFixed(2) + " N";  
-}
-else if(GrahName === "Neptune"){
-    document.getElementsByClassName("planet-img")[0].src="./neptune.png";
-    document.getElementById("ans-tag").innerText= (Mass*14.07).toFixed(2) + " N";  
-}
-else if(GrahName === "Pluto"){
-    document.getElementsByClassName("planet-img")[0].src="./pluto.png";
-    document.getElementById("ans-tag").innerText= (Mass*0.42).toFixed(2) + " N";  
-}
-else if(GrahName === "Saturn"){
-    document.getElementsByClassName("planet-img")[0].src="./saturn.png";
-    document.getElementById("ans-tag").innerText= (Mass*11.08).toFixed(2) + " N";  
-}
-else if(GrahName === "Uranus"){
-    document.getElementsByClassName("planet-img")[0].src="./uranus.png";
-    document.getElementById("ans-tag").innerText= (Mass*10.67).toFixed(2) + " N";  
-}
-else if(GrahName === "Venus"){
-    document.getElementsByClassName("planet-img")[0].src="./venus.png";
-    document.getElementById("ans-tag").innerText= (Mass*8.87).toFixed(2) + " N";  
-}
+
+document.getElementsByClassName("planet-img")[0].src=`./${GrahName}.png`;
+
+var ans = Mass*(Acce_value[GrahName]);
+console.log(typeof ans);
+document.getElementById("ans-tag").innerText= ans.toFixed(2) + " N"; 
 
 }
 
