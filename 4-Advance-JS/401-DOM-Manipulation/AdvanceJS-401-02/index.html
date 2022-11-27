@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advance-JS-401-02</title>
+  <style>
+    .has-children li {
+      width: 150px;
+      height: 40px;
+      border: 2px solid black;
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 6px;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <ul class="has-children">
+    <li>1st child</li>
+    <li>2nd child</li>
+    <li>3rd child</li>
+    <li>4th child</li>
+    <li>5th child</li>
+    <li>6th child</li>
+    <li>7th child</li>
+    <li>8th child</li>
+    <li>9th child</li>
+    <li>10th child</li>
+    <li>11th child</li>
+    <li>12th child</li>
+    <li>13th child</li>
+    <li>14th child</li>
+    <li>15th child</li>
+    <li>16th child</li>
+    <li>17th child</li>
+  </ul>
+  <script>
+    const firstchild = document.querySelector(".has-children li:first-child");
+    firstchild.style ="background-color:blue; color:white";
+    const ninthChild = document.querySelector(".has-children li:nth-child(9)");
+    ninthChild.style ="background-color:green; color:white";
+    const lastChild = document.querySelector(".has-children li:last-child");
+    lastChild.style ="background-color:palevioletred; color:white";
+    const evenChild = document.querySelectorAll(".has-children li:nth-child(even)")
+    evenChild.forEach(element => (element.style = "background-color:lime; color:white"));
+    
+  </script>
+</body>
+
 </html>
