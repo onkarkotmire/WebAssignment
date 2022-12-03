@@ -66,7 +66,7 @@ How to use this repository
 | 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/)  [AdvanceJS-401-01]             |   https://onkarkotmire.github.io/WebAssignment/4-Advance-JS/401-DOM-Manipulation/AdvanceJS-401-01/index.html          |
 | 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/)  [AdvanceJS-401-02]             | https://onkarkotmire.github.io/WebAssignment/4-Advance-JS/401-DOM-Manipulation/AdvanceJS-401-02/index.html            |
 | 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/)  [AdvanceJS-401-03]             |https://onkarkotmire.github.io/WebAssignment/4-Advance-JS/401-DOM-Manipulation/AdvanceJS-401-03/index.html             |
-| 2     | JS    | [DOM-MANIPULATION-2](./4-Advance-JS/402-DOM-Manipulation/)  [AdvanceJS-402-01]             |             |
+| 2     | JS    | [DOM-MANIPULATION-2](./4-Advance-JS/402-DOM-Manipulation/)  [AdvanceJS-402-01]             | https://onkarkotmire.github.io/WebAssignment/4-Advance-JS/402-DOM-Manipulation/AdvanceJS-402-03/index.html            |
 | 2     | JS    | [DOM-MANIPULATION-2](./4-Advance-JS/402-DOM-Manipulation/)  [AdvanceJS-402-02]             |             |
 | 3     | JS    | [EVENT-LISTNERS](./4-Advance-JS/403-Event-Listeners/)       [AdvanceJS-403-01]           |             |
 | 3     | JS    | [EVENT-LISTNERS](./4-Advance-JS/403-Event-Listeners/)       [AdvanceJS-403-02]           |             |
