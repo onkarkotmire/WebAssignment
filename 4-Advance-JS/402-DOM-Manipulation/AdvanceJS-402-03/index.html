@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping List</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+    <style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        display: flex;
+        align-items: center;
+        margin-top: 2%;
+        flex-direction: column;
+    }
+    .main-container{
+        width: 40vw;
+    }
+    .input-container{
+        display: flex;
+        margin-top: 2%;
+    }
+    p, input, button{
+        margin: 7px;
+    }
+    ul{
+        margin-left: 60px;
+        margin-top: 15px;
+    }
+
+
+    </style>
+</head>
+<body>
+      <h1>My shopping List</h1>
+      <div class="main-container">
+      <div class="input-container">
+        <p>Enter a New Item : </p>
+        <input type="text" id="input_value">
+        <button id="button">Add item</button>
+      </div>
+      <ul id="list">
+
+      </ul>
+    </div>
+    <script>
+       let input_value = document.getElementById("input_value");
+       let button = document.getElementById("button");
+       let list_container = document.getElementById("list");
+
+       button.addEventListener("click", adding_element);
+
+       function adding_element(){
+        //taking input from user
+        let inputvalue = input_value.value;
+
+        //creation of list element
+        let item = document.createElement("li");
+        item.setAttribute("id", "list-item");
+        item.innerText = inputvalue;
+        list_container.append(item);
+
+
+       }
+    </script>
+</body>
 </html>
