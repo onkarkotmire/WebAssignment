@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>402-02</title>
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10%;
+      }
+      button{
+        width: 8%;
+        height: 5vh;
+        margin-top: 2%;
+      }
+      .img-heading{
+        color: green;
+        margin-top: 2%;
+
+      }
+
+      .image{
+        width: 200px;
+        height: 60px;
+        margin-top: 2%;
+      }
+    </style>
+</head>
+<body>
+      <h1 style="color: green;">Geekster</h1>
+      <h3 style="margin-top: 2%;">Click on the button to add image image element</h3>
+      <button>click here</button>
+
+    <script>
+        const button = document.getElementsByTagName("button")[0];
+        button.addEventListener("click", myfun);
+        const head = document.getElementsByClassName("img-heading")[0];
+        const img = document.getElementsByClassName("image")[0];
+
+
+        function myfun(){
+            const body = document.getElementsByTagName("body")[0];
+            const heading = document.createElement("h2")
+            heading.setAttribute("class", "img-heading");
+            heading.innerText = "Image Element Added.";
+
+            const img = document.createElement("img");
+            img.setAttribute("class", "image");
+            img.setAttribute("src","https://bl-i.thgim.com/public/incoming/89s94/article65661458.ece/alternates/FREE_1200/Geekster%20Logo%20new%20%281%29.png")
+            body.append(heading);
+            body.append(img);
+
+        }
+
+    </script>
+</body>
 </html>
