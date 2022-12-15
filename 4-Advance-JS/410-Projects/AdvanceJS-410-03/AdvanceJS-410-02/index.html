@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Finder</title>
+    <style>
+      *{
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+      }
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #main_heading, #sub_heading{
+        margin-top: 20px;
+      }
+      #user_input{
+        margin-top: 35px;
+        width: 450px;
+      }
+      .image_container{
+         margin-top: 30px;
+         width: 80vw;
+         flex-wrap: wrap;
+         display: flex;
+         gap: 20px;
+         justify-content: center;
+      }
+      #img{
+        width: 150px;
+        height: 150px;
+      }
+
+    </style>
+</head>
+<body>
+     <h1 id="main_heading">Meal Finder</h1>
+     <h3 id="sub_heading">Find the perfect meal to dine upon</h3>
+     <input type="text" id="user_input">
+     <div class="image_container">
+     </div>
+
+
+    <script>
+      const input = document.getElementById("user_input");
+      const image_container = document.getElementsByClassName("image_container")[0];
+
+      init();
+
+      function init(){
+        input.addEventListener("keyup", fetchmeal);
+        input.addEventListener("keyup", (event)=>{
+         if(event.key === "Enter"){
+            fetchmeal();
+         }
+        })
+      }
+
+      async function fetchmeal(){
+        const input_value = input.value;
+        const streamResponse = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${input_value}`);
+        const textBody = await streamResponse.text();
+        const jsonData = JSON.parse(textBody);
+        let html = '';
+        for(let i=0; i < jsonData.meals.length; i++){
+         html += `<img src="${jsonData.meals[i].strMealThumb}" alt="" id="img">`
+        }
+        image_container.innerHTML = html;
+      }
+
+    </script>
+</body>
 </html>
