@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            background-image: url("https://thumbs.dreamstime.com/b/paneer-butter-masala-indian-style-cottage-cheese-curry-bowls-over-white-background-top-view-flat-lay-paneer-butter-masala-252592822.jpg");
+        }
+        .main-container{
+            height: 85vh;
+            width: 30vw;
+            margin-top: 5%;
+            display: flex;
+            /* align-items: center; */
+            flex-direction: column;
+            padding: 20px;
+            z-index: 1;
+            background-color: white;
+        }
+        #dollar{
+           margin-top: 12px;
+        }
+        #dollar_input{
+            width: 50%;
+        }
+        #service_quality{
+            margin-top: 20px;
+        }
+        #list_item{
+            margin-top: 12px;
+            width: 50%;
+        }
+        button{
+            width: 80%;
+            height: 35px;
+            margin-top: 20px;
+            background-color: brown;
+            border: none;
+            color: white;
+            font-size: 17px;
+        }
+        .tip_amt_container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+            width: 80%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div style="display: flex; flex-direction:column; align-items: center;">
+        <h1>Charales' Tip</h1>
+        <h1>Calculator</h1>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <h3 style="margin-top: 10px;">How much was your bill?</h3>
+        <div id="dollar">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <input type="number" id="dollar_input">
+        </div>
+        <div id="service_quality">
+        <h3>How was your service?</h3>
+        <select id="list_item">
+            <option value="" disabled selected hidden>--Choose an option--</option>
+            <option value="30">30% - Outstanding</option>
+            <option value="20">20% - Good</option>
+            <option value="15">15% - It was okay</option>
+            <option value="10">10% - Bad</option>
+            <option value="5">5% - Terrible</option>
+             </select>
+        </div>
+        <h3 style="margin-top: 20px;">How many peoples are there for dinner?</h3>
+        <div style="display: flex; margin-top: 15px;">
+            <input type="number" name="" id="number_of_people">
+            <h4 style="padding: 4px;">People</h4>
+        </div>
+        <div style="padding: 0px;">
+        <button>CALCULATE!</button>
+        </div>
+        <div class="tip_amt_container">
+            <h4>TIP AMOUNT</h4>
+            <div style="display: flex;">
+                <i class="fa-solid fa-dollar-sign"></i>
+                <h1 id="tip_amount">4.00</h1>
+            </div>
+            <h5>each</h5>
+        </div>
+
+    </div>
+
+<script>
+    let list_item_value1 = 5;
+    const bill_input = document.getElementById("dollar_input");
+    const list_item = document.getElementById("list_item");
+    const number_of_people = document.getElementById("number_of_people");
+    const button = document.getElementsByTagName("button")[0];
+    const tip_amount = document.getElementById("tip_amount");
+
+    init();
+
+    function init(){
+        button.addEventListener("click", calculate_tip_amount);
+    }
+    function calculate_tip_amount(){
+        let total = (bill_input.value*list_item.value)/ (number_of_people.value);
+        tip_amount.innerText = total;  
+    }
+    
+
+
+</script>
+</body>
 </html>
