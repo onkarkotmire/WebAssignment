@@ -54,6 +54,7 @@
       init();
 
       function init(){
+        fetchmeal();
         input.addEventListener("keyup", fetchmeal);
         input.addEventListener("keyup", (event)=>{
          if(event.key === "Enter"){
