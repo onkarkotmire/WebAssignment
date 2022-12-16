@@ -73,7 +73,7 @@ How to use this repository
 | 3     | JS    | [EVENT-LISTNERS](./4-Advance-JS/403-Event-Listeners/)       [AdvanceJS-403-03]           | https://onkarkotmire.github.io/WebAssignment/4-Advance-JS/403-event-listeners/AdvanceJS-403-03/index.html            |
 | 4     | JS    | [MINI-PROJECT](./4-Advance-JS/404-Mini-Project-Solar%20System/)   [AdvanceJS-404-01]       | https://onkarkotmire.github.io/WebAssignment/4-Advance-JS/404-Mini-Project-Solar%20System/AdvanceJS-404-01/index.html            |
 | 5     | JS    | [WORLD-COUNTRIES](./4-Advance-JS/405-WorldCountries-Data-Visualization/) [AdvanceJS-405-01] |https://onkarkotmire.github.io/WebAssignment/4-Advance-JS/405-WorldCountries-Data-Visualization/AdvanceJS-405-01/index.html             |
-| 6     | JS    | [DOM-VISUALATION](./4-Advance-JS/406-Data-visualization/)     [AdvanceJS-406-01]          |             |
+| 6     | JS    | [DOM-VISUALATION](./4-Advance-JS/406-Data-visualization/)     [AdvanceJS-406-01]          | https://onkarkotmire.github.io/WebAssignment/4-Advance-JS/406-Data-visualization/AdvanceJS-406-01/index.html            |
 | 7     | JS    | [EMOJI-SEARCH](./4-Advance-JS/407-Emoji-search/)              [AdvanceJS-407-01]           | https://onkarkotmire.github.io/WebAssignment/4-Advance-JS/407-Emoji-search/AdvanceJS-407-01/index.html            |
 | 8     | JS    | [LEADERBOARD](./4-Advance-JS/408-leaderboard/)    [AdvanceJS-408-01]                       | https://onkarkotmire.github.io/ScoreBoard-App/            |
 | 9     | JS    | [FROM-VALIDATION](./4-Advance-JS/409-form-validation/)          [AdvanceJS-409-01]         |             |
