@@ -96,7 +96,7 @@
             <h4>TIP AMOUNT</h4>
             <div style="display: flex;">
                 <i class="fa-solid fa-dollar-sign"></i>
-                <h1 id="tip_amount">4.00</h1>
+                <h1 id="tip_amount"></h1>
             </div>
             <h5>each</h5>
         </div>
@@ -118,7 +118,8 @@
     }
     function calculate_tip_amount(){
         let total = (bill_input.value*list_item.value)/ (number_of_people.value);
-        tip_amount.innerText = total;  
+        let total1 = total.toFixed(2);
+        tip_amount.innerText = total1;  
     }
     
 
