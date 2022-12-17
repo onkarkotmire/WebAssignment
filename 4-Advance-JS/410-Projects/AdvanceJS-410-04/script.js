@@ -23,14 +23,15 @@ async function fetchwhether() {
     const textBody = await streamResponse.text();
     const jsonData = JSON.parse(textBody);
     const weather_icon = jsonData.weather[0].icon;
-    const temperature_value = jsonData.main.temp;
+    const temperature_value1 = jsonData.main.temp;
+    const temperature_value = (temperature_value1 - 273.15).toFixed(0);
     const cloud_description = jsonData.weather[0].description;
     const wind_speed = jsonData.wind.speed;
     const humidity_value = jsonData.main.humidity;
     const pressure_value = jsonData.main.pressure;
 
     weather_image.setAttribute("src", `http://openweathermap.org/img/wn/${weather_icon}@2x.png`)
-    temperature.innerHTML = `${temperature_value}&deg;F`
+    temperature.innerHTML = `${temperature_value}&deg;C`
     season.innerText = cloud_description;
     windSpeed.innerHTML = wind_speed + `<span class="unit">km</span>`;
     humidity.innerHTML = humidity_value + `<span class="unit">%</span>`;
