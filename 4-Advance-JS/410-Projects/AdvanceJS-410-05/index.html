@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #ff938e, #ffe2c7);
+            height: 100vh;
+        }
+        .main_container{
+            width: 500px;
+            border-radius: 8px;
+            box-shadow: 0px 5px 5px 2px #ea1d1a;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 32px;
+        }
+        #quote_mark{
+            color: brown;
+            font-size: 50px;
+        }
+        button{
+            width: 100px;
+            height: 33px;
+            background: linear-gradient(135deg, rgb(228, 83, 83), rgb(218, 173, 173));
+            border-radius: 6px;
+            color: white;
+        }
+        #hr{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main_container">
+        <h1 id="quote"></h1>
+        <h3 id="author_name"></h3>
+        <hr id="hr">
+        <button>Next Quote</button>
+    </div>
+
+    <script>
+        const button =document.getElementsByTagName("button")[0];
+        const quote = document.getElementById("quote");
+        const author_name =document.getElementById("author_name");
+
+        init();
+
+        function init(){
+            gettherandomquote();
+            button.addEventListener("click", gettherandomquote);
+        }
+
+        async function gettherandomquote(){
+            const streamResponse = await fetch(`https://api.quotable.io/random`);
+            const textBody = await streamResponse.text();
+            const jsonData = JSON.parse(textBody);
+                quote.innerHTML = `<span id="quote_mark">&#8220;</span>${jsonData.content}<span id="quote_mark">&#8221;</span>`;
+                author_name.innerText = '--' + jsonData.author;
+        }
+
+    </script>
+</body>
 </html>
